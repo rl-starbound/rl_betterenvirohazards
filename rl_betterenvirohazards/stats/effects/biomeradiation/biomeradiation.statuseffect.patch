@@ -1,0 +1,6 @@
+[
+  { "op" : "replace",
+    "path" : "/effectConfig/healthPercentage",
+    "value" : 0.25
+  }
+]

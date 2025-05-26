@@ -1,0 +1,18 @@
+[
+  { "op" : "add",
+    "path" : "/biomeradiation/important",
+    "value" : true
+  },
+  { "op" : "add",
+    "path" : "/biomecold/important",
+    "value" : true
+  },
+  { "op" : "add",
+    "path" : "/biomeheat/important",
+    "value" : true
+  },
+  { "op" : "add",
+    "path" : "/biomeairless/important",
+    "value" : true
+  }
+]

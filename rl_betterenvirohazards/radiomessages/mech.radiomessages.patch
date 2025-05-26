@@ -1,0 +1,30 @@
+[
+  { "op" : "replace",
+    "path" : "/biomeradiation_mech/text",
+    "value" : "WARNING: This vehicle is not certified for use in extreme radiation!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+  },
+  { "op" : "replace",
+    "path" : "/biomecold_mech/text",
+    "value" : "WARNING: This vehicle is not certified for use in extreme cold!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+  },
+  { "op" : "replace",
+    "path" : "/biomeheat_mech/text",
+    "value" : "WARNING: This vehicle is not certified for use in extreme heat!\nDisregarding this warning may cause pilot death and/or invalidation of vehicle warranty."
+  },
+  { "op" : "add",
+    "path" : "/biomeradiation_mech/important",
+    "value" : true
+  },
+  { "op" : "add",
+    "path" : "/biomecold_mech/important",
+    "value" : true
+  },
+  { "op" : "add",
+    "path" : "/biomeheat_mech/important",
+    "value" : true
+  },
+  { "op" : "add",
+    "path" : "/lava_mech/important",
+    "value" : true
+  }
+]

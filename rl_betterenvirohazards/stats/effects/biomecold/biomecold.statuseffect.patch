@@ -1,0 +1,9 @@
+[
+  { "op" : "remove",
+    "path" : "/effectConfig/tickRate"
+  },
+  { "op" : "add",
+    "path" : "/scriptDelta",
+    "value" : 30
+  }
+]
