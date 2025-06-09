@@ -14,8 +14,8 @@ Finally, a bug was fixed with mechs involving environment hazards. In the base g
 ## Compatibility
 
 As this is considered a "bugfix" mod, it has an early-loading priority, so other mods that alter the environment hazards may override it.
-* Frackin Universe replaces biomeairless, but its replacement is effectively identical to this mod's.
-* Starburst Rework replaces all four base game environment hazards, so there is little point in using this mod with it.
+* Frackin Universe replaces the airlessness code, but its replacement is effectively identical to this mod's airlessness.
+* Starburst Rework replaces all four base game environment hazards, so the only effect this mod has, when used with Starburst Rework, is the mech pilot immunity fix.
 
 This mod does not alter any non-base game environment hazards. Mod authors of those hazards should modify their code to behave similarly to this mod, to avoid similar bugs with their mods' hazards.
 
