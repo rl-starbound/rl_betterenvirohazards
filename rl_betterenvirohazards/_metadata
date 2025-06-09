@@ -2,7 +2,10 @@
   "author" : "rl.starbound",
   "description" : "The environment hazards in the base game are somewhat imbalanced, with Deadly Heat in many cases being easier to survive than Deadly Radiation or Deadly Chill. This mod rebalances them.\n\nIt also corrects a race condition in which environment status effects could be applied to players before the blocking effects of an EPP are applied, causing damage to be applied inappropriately.\n\nAs this is considered a \"bugfix\" mod, it has a low priority, so other mods may override it.",
   "friendlyName" : "Better Environment Hazards",
+  "link" : "steam://url/CommunityFilePage/3494479470",
   "name" : "rl_betterenvirohazards",
   "priority" : -9979,
-  "version" : "1.0.0"
+  "steamContentId" : "3494479470",
+  "tags" : "Mechanics",
+  "version" : "1.0.1"
 }

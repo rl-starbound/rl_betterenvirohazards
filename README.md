@@ -1,7 +1,6 @@
 # Starbound mod: Better Environment Hazards
 
 The environment hazards in the base game ([Deadly Radiation](https://starbounder.org/Deadly_Radiation), [Deadly Chill](https://starbounder.org/Deadly_Chill), and [Deadly Heat](https://starbounder.org/Deadly_Heat)) are somewhat imbalanced, with Deadly Heat in many cases being easier to survive than Deadly Radiation or Deadly Chill. This mod rebalances them:
-
 * Deadly Radiation now caps the player's max health at 25%, not 15%.
 * Deadly Chill now does 10 DPS after the player's energy is drained, instead of 15 DPS.
 * Deadly Heat now does 15 DPS at all times, regardless of whether the player is touching the ground.
@@ -15,6 +14,8 @@ Finally, a bug was fixed with mechs involving environment hazards. In the base g
 ## Compatibility
 
 As this is considered a "bugfix" mod, it has an early-loading priority, so other mods that alter the environment hazards may override it.
+* Frackin Universe replaces biomeairless, but its replacement is effectively identical to this mod's.
+* Starburst Rework replaces all four base game environment hazards, so there is little point in using this mod with it.
 
 This mod does not alter any non-base game environment hazards. Mod authors of those hazards should modify their code to behave similarly to this mod, to avoid similar bugs with their mods' hazards.
 
@@ -24,12 +25,11 @@ This mod should be safe to be freely installed or uninstalled without problems.
 
 ## Collaboration
 
-If you have any questions, bug reports, or ideas for improvement, please contact me via [Chucklefish Forums](https://community.playstarbound.com/members/rl-starbound.885402/), [Github](https://github.com/rl-starbound), or [Reddit](https://www.reddit.com/user/rl-starbound/), or [Discord](rl.steam). Also please let me know if you plan to republish this mod elsewhere, so we can maintain open lines of communication to ensure timely updates.
+If you have any questions, bug reports, or ideas for improvement, please contact me via [Chucklefish Forums](https://community.playstarbound.com/members/rl-starbound.885402/), [Github](https://github.com/rl-starbound), [Reddit](https://www.reddit.com/user/rl-starbound/), or Discord (rl.steam). Also please let me know if you plan to republish this mod elsewhere, so we can maintain open lines of communication to ensure timely updates.
 
 ## License
 
 Permission to include this mod or parts thereof in derived works, to distribute copies of this mod verbatim, or to distribute modified copies of this mod, is granted unconditionally to Chucklefish LTD. Such permissions are also granted to other parties automatically, provided the following conditions are met:
-
 * Credit is given to the author(s) specified in this mod's `_metadata` file;
-* A link is provided to **TBD** in the accompanying files or documentation of any derived work;
-* The name "rl_betterenvirohazards" is not used as the metadata name of any derived mod without explicit consent of the author(s); however, the name may be used in verbatim distribution of this mod. For the purposes of this clause, minimal changes to metadata files to allow distribution on Steam shall be considered a verbatim distribution so long as authorship attribution remains.
+* A link is provided to the [Chucklefish Forum page](https://community.playstarbound.com/resources/better-environment-hazards.6363/) or the [source repository](https://github.com/rl-starbound/rl_betterenvirohazards) in the accompanying files or documentation of any derived work;
+* The names "Better Environment Hazards" and "rl_betterenvirohazards" are not used as the metadata friendlyName and name, respectively, of any derived mod without explicit consent of the author(s); however, the name may be used in verbatim distribution of this mod. For the purposes of this clause, minimal changes to metadata files to allow distribution on Steam shall be considered a verbatim distribution so long as authorship attribution remains.
